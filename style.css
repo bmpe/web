@@ -1,0 +1,759 @@
+?@charset "utf-8";
+/* ----------------------------------------------
+	This style definition is initiarize.
+------------------------------------------------- */
+
+body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td{
+    margin: 0 0 0 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", "ÉqÉâÉMÉmäpÉS ProN W3", Meiryo, "ÉÅÉCÉäÉI", sans-serif;
+    /* "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif; */
+}
+
+body{
+    color: #333;
+    font-size: 100%;
+    font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", "ÉqÉâÉMÉmäpÉS ProN W3", Meiryo, "ÉÅÉCÉäÉI", sans-serif;
+    /* font-family: "ÉÅÉCÉäÉI", "MS UI Gothic", "ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3";*/
+    line-height: 150%;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+fieldset, img{
+    border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+ul{
+    list-style-type: disc;
+}
+
+caption, th{
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-size: 100%;
+    font-weight: normal;
+}
+
+abbr, acronym{
+    border: 0;
+}
+
+textarea{
+    font-size: 100%;
+    font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", "ÉqÉâÉMÉmäpÉS ProN W3", Meiryo, "ÉÅÉCÉäÉI", sans-serif;
+    /* font-family: "ÉÅÉCÉäÉI", "MS UI Gothic", "ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3";*/
+}
+
+/*----------------------------Ç±Ç±Ç©ÇÁ----------------------------*/
+
+
+body{
+    text-align: center;
+    background-image: url(backgd.png);
+}
+
+div#container{
+    width: 850px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #eaf4fc;
+}
+
+header, nav, article, aside, section, footer{
+    display: block;
+}
+
+header{
+    padding: 0px;
+    background-image: url(backgd.png);
+}
+
+    header table{
+        padding: 0px;
+        border-collapse: collapse;
+        width: 850px;
+        border: none;
+    }
+
+    header tr.titlefont{
+        text-align: left;
+        height: 90px;
+        vertical-align: middle;
+    }
+
+    header td.titlefont{
+        text-align: center;
+        font-size: 26px;
+        font-family: font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", "ÉqÉâÉMÉmäpÉS ProN W3", Meiryo, "ÉÅÉCÉäÉI", sans-serif;
+        /* "ÇlÇr Çoñæí©", "MS PMincho", "ÉqÉâÉMÉmñæí© Pro W3", "Hiragino Mincho Pro", serif; */
+        color: #000;
+        margin: 10pt 10pt 0pt 10pt;
+        padding: 0pt;
+    }
+
+
+.titlefont .titlefont2{
+    font-size: 34px;
+    font-family: font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", "ÉqÉâÉMÉmäpÉS ProN W3", Meiryo, "ÉÅÉCÉäÉI", sans-serif;
+    /* "ÇlÇr Çoñæí©", "MS PMincho", "ÉqÉâÉMÉmñæí© Pro W3", "Hiragino Mincho Pro", serif; */
+    color: #000;
+    margin: 10pt 10pt 10pt 10pt;
+    padding: 0pt;
+}
+
+
+header .language{
+    background-color: #e0e682;
+    color: #68722D;
+    font-size: 11pt;
+    margin: 0 0 0 0;
+    font-family: font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", "ÉqÉâÉMÉmäpÉS ProN W3", Meiryo, "ÉÅÉCÉäÉI", sans-serif;
+    /* "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", "ÉÅÉCÉäÉI", Meiryo, Osaka, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif; */
+}
+
+    header .language td{
+        text-align: right;
+        height: 18px;
+    }
+
+
+header .place{
+    background-color: #f1f1a9;
+    height: 32px;
+    color: #68722D;
+    font-size: 11pt;
+    margin: 0 0 0 0;
+    vertical-align: middle;
+}
+
+
+nav{
+    float: left;
+    width: 140px;
+    height: auto;
+    background-color: #eaf4fc;
+}
+
+    nav table.menu{
+        text-align: left;
+        padding: 0px;
+        vertical-align: top;
+        width: 140px;
+        height: auto;
+        background-color: #eaf4fc;
+    }
+
+        nav table.menu table{
+            border: 0;
+            padding: 0;
+            border-spacing: 0;
+            width: 140px;
+            text-align: left;
+        }
+
+    nav td.menh{
+        text-align: left;
+        height: 24px;
+        vertical-align: middle;
+        width: 140px;
+    }
+
+        nav td.menh table{
+            width: 140px;
+            text-align: left;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        nav td.menh tr{
+            text-align: left;
+            margin-left: 0px;
+        }
+
+    nav td.menu_button{
+        height: 32px;
+        width: 140px;
+    }
+
+    nav p.wzw{
+        font-size: 12px;
+        margin: 10pt 0pt 0pt 0pt;
+        height: 32px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+.menu_button p{
+    font-size: 12px;
+    margin: 0pt 0pt 0pt 0pt;
+    height: 32px;
+    width: 140px;
+}
+
+.submenu{
+    margin: 0pt 0pt 0px 0pt;
+    padding: 0pt 0pt 0pt 0pt;
+    border-bottom: 1px #146aac solid;
+    width: auto;
+    height: 32px;
+    text-align: center;
+}
+
+article{
+    float: right;
+    width: 710px;
+    height: auto;
+    background-image: url(backgd.png);
+}
+
+    article p.center{
+        text-align: center;
+    }
+
+
+
+footer{
+    clear: both;
+    background-image: url(backgd.png);
+}
+
+    footer table.footer_table{
+        border-color: #eaf4fc;
+        padding: 0px;
+        border-collapse: collapse;
+        width: 850px;
+        border: 1px solid #eaf4fc;
+        border-spacing: 0;
+    }
+
+
+
+        footer table.footer_table tr td p {
+            font-family: font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", "ÉqÉâÉMÉmäpÉS ProN W3", Meiryo, "ÉÅÉCÉäÉI", sans-serif;
+            /* "ÉÅÉCÉäÉI", "MS UI Gothic", "ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3"; */
+        }
+
+
+    footer td.footer_td{
+        height: 218px;
+        width: 470px;
+    }
+
+    footer .logo_td{
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    footer .copy{
+        text-align: center;
+        height: 50px;
+    }
+
+        footer .copy p{
+            font-size: 10px;
+        }
+
+.footer_td p{
+    font-size: 11pt;
+    margin: 10pt 20pt 10pt 20pt;
+}
+
+#footer tr td p {
+    font-family: font-family: "Lucida Grande", "Hiragino Kaku Gothic ProN", "ÉqÉâÉMÉmäpÉS ProN W3", Meiryo, "ÉÅÉCÉäÉI", sans-serif;
+    /* font-family: "ÉÅÉCÉäÉI", "MS UI Gothic", "ÇlÇr ÇoÉSÉVÉbÉN", Osaka, "ÉqÉâÉMÉmäpÉS Pro W3"*/;
+}
+
+.item{
+    font-size: 12pt;
+    margin: 10pt 10pt 0pt 20pt;
+    padding: 0pt;
+}
+
+/*Å@äeÉyÅ[ÉWÇÃédólÅ@*/
+
+.abs{
+    vertical-align: top;
+}
+
+
+    .abs h1{
+        margin: 10pt 10pt 10pt 10pt;
+        color: #333333;
+        font-size: 22px;
+    }
+
+    .abs p{
+        font-size: 16px;
+        margin: 10pt 10pt 10pt 10pt;
+        padding: 0pt;
+    }
+
+.abs_t{
+    margin: 10pt 10pt 5pt 10pt;
+}
+
+
+
+.link{
+    text-align: left;
+    vertical-align: top;
+    height: 500px;
+}
+
+    .link p{
+        font-size: 16px;
+        margin: 10pt 10pt 10pt 10pt;
+    }
+
+.member p{
+    font-size: 22px;
+    margin: 10pt 0pt 0pt 10pt;
+}
+
+.member span{
+    font-size: 10px;
+}
+
+table.contents{
+    width: 710px;
+    min-height: 569px;
+    height: auto;
+}
+
+    table.contents td.contents_title{
+        text-align: center;
+        vertical-align: middle;
+        height: 37px;
+    }
+
+        table.contents td.contents_title p{
+            text-align: left;
+            font-size: 22px;
+            margin: 10pt 0pt 0pt 10pt;
+            vertical-align: top;
+        }
+
+        table.contents td.contents_title span.email{
+            font-size: 10px;
+        }
+
+
+
+table.staff{
+    border: 3px solid #a4d2f3;
+    padding: 0;
+    border-spacing: 1px;
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+    table.staff td{
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #a4d2f3;
+    }
+
+        table.staff td.position{
+            width: 180px;
+        }
+
+        table.staff td.name{
+            text-align: center;
+            vertical-align: middle;
+            width: auto;
+            border: 1px solid #a4d2f3;
+        }
+
+        table.staff td.mail{
+            text-align: center;
+            vertical-align: middle;
+            width: 180px;
+            border: 1px solid #a4d2f3;
+        }
+
+table.student{
+    border: 3px solid #a4d2f3;
+    padding: 0;
+    border-spacing: 1px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+    table.student td{
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #a4d2f3;
+    }
+
+
+.newstb{
+    padding: 1px;
+    border-spacing: 1px;
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+}
+
+    .newstb td{
+        background-color: #eaf4fc;
+        text-align: left;
+    }
+
+    .newstb tr{
+        background-color: #ffffcc;
+    }
+
+    .newstb .whats1{
+        color: #3366ff;
+        font-size: 16px;
+        font-weight: bold;
+        left: 20px;
+        margin: 5pt 10pt 5pt 10pt;
+        border-collapse: separate;
+    }
+
+    .newstb .whatslist{
+        font-size: 14px;
+        margin: 5pt 0pt 5pt 5pt;
+        background-color: #eaf4fc;
+        border-collapse: separate;
+    }
+
+
+    .newstb .newstext{
+        font-size: 14px;
+        margin: 0pt 0pt 5pt 15pt;
+    }
+
+.olol{
+    margin: 0pt 0pt 0pt 0pt;
+    padding: 0pt 0pt 0pt 0pt;
+}
+
+
+
+table.paper{
+    width: 710px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+    table.paper p{
+        font-size: 22px;
+        margin: 10pt 0pt 10pt 10pt;
+    }
+
+    table.paper .item{
+        font-size: 16px;
+        margin: 10pt 10pt 10pt 20pt;
+        text-align: left;
+    }
+
+    table.paper .item{
+        font-size: 16px;
+        margin: 10pt 10pt 10pt 20pt;
+    }
+
+    table.paper .table_list{
+        margin: 10pt 10pt 10pt 30pt;
+        padding: 0;
+        border-spacing: 0;
+        width: 100px;
+    }
+
+        table.paper .table_list td{
+            text-align: center;
+            vertical-align: middle;
+        }
+
+    table.paper .table_list2{
+        border-collapse: collapse;
+        width: 630px;
+        padding: 0;
+        border-spacing: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        table.paper .table_list2 tr{
+            border-bottom: 1px #a6d2f3 solid;
+            vertical-align: top;
+        }
+
+        table.paper .table_list2 td.paper_number{
+            text-align: center;
+            vertical-align: top;
+            width: 40px;
+        }
+
+    table.paper .table_list3{
+        border-collapse: collapse;
+        width: 500px;
+        padding: 0;
+        border-spacing: 0;
+        margin: 10pt 10pt 10pt 30pt;
+        text-align: center;
+    }
+
+.papernumber{
+    text-align: center;
+    vertical-align: top;
+    width: 40px;
+}
+
+table.empty{
+    border-collapse: collapse;
+    width: 710px;
+    height: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    background-image: url(backgd.png);
+}
+
+
+table.award{
+    text-align: center;
+    border: 0;
+    padding: 0;
+    width: 680px;
+    margin-right: auto;
+    margin-left: 20pt;
+    border-collapse: collapse;
+}
+
+    table.award tr.award_name{
+        border-bottom: 1px #a6d2f3 dashed;
+        border-top: 1px #a6d2f3 solid;
+        border-collapse: collapse;
+        vertical-align: middle;
+    }
+
+        table.award tr.award_name td{
+            text-decoration: underline;
+            text-align: center;
+            height: auto;
+            font-size: inherit;
+            height: 30px;
+        }
+
+    table.award tr.award_subject{
+        border-collapse: collapse;
+        vertical-align: top;
+    }
+
+    table.award td.label{
+        text-align: center;
+        width: 70px;
+        vertical-align: top;
+    }
+
+
+.award .item{
+    font-size: 16px;
+    margin: 10pt 10pt 10pt 20pt;
+}
+
+.award .table_list{
+    margin: 10pt 10pt 10pt 30pt;
+}
+
+.private p{
+    font-size: 14px;
+    margin: 10pt 10pt 10pt 10pt;
+    padding: 0pt;
+}
+
+.private .private1{
+    font-size: 12px;
+    margin: 10pt 10pt 10pt 20pt;
+    padding: 0pt;
+}
+
+td.research{
+    text-align: left;
+    vertical-align: top;
+}
+
+.research p{
+    font-size: 22px;
+    margin: 10pt 10pt 10pt 10pt;
+}
+
+.research .item{
+    font-size: 16px;
+    margin: 10pt 10pt 10pt 20pt;
+}
+
+.research .itemitem{
+    font-size: 16px;
+    margin: 10pt 10pt 10pt 50pt;
+}
+
+td.researchindex{
+    vertical-align: top;
+}
+
+p.researchindex{
+    font-size: 22px;
+    margin: 10pt 10pt 10pt 10pt;
+    padding: 0pt;
+    text-align: center;
+}
+
+.researchitem{
+    font-size: 16px;
+    margin: 10pt 10pt 10pt 10pt;
+    padding: 0pt;
+    font-weight: bold;
+}
+
+.researchitemitem{
+    font-size: 14px;
+    margin: 10px 10px auto 20px;
+    padding: 0pt;
+    font-weight: bold;
+    width: 680px;
+}
+
+.researchitemtext{
+    margin: 10pt 10pt 10pt 30pt;
+    padding: 0pt;
+}
+
+.researchtext{
+    /* margin: 10pt 10pt 10pt 10pt; */
+    padding: 0pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: auto;
+    width: 690px;
+}
+
+.researchtext_vessel{
+    margin: 10pt 10pt 10pt 10pt;
+    padding: 0;
+}
+
+.researchtexttext{
+    margin: 10px 10px auto 20px;
+    padding: 0pt;
+    width: 680px;
+}
+
+.rsearchtable{
+    width: 690px;
+}
+
+.researchtable tr{
+    border-bottom: 1px #a6d2f3 solid;
+}
+
+table.researchfigure{
+    text-align: center;
+    border: 0;
+    padding: 0;
+    border-spacing: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+    table.researchfigure td{
+        text-align: center;
+        vertical-align: middle;
+    }
+
+article ul{
+    margin: 0px 10px 10px 30px;
+}
+
+.ulul{
+    margin: 0pt 10pt 10pt 10pt;
+}
+
+.whats2{
+    text-align: left;
+    margin-left: 5px;
+    margin-right: auto;
+}
+
+    .whats2 table, contact_table{
+        width: 700px;
+        padding: 0;
+        border-spacing: 0px;
+    }
+
+    .whats2 td.whats_title{
+        color: #3366ff;
+        font-weight: bold;
+        text-align: center;
+        border-bottom-width: 1px;
+        border-color: #bdbdbd;
+        border-style: solid;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-left-width: 0;
+        height: 52px;
+    }
+
+        .whats2 td.whats_title p{
+            font-size: 16pt;
+        }
+
+    .whats2 .contact_table td.whats_tilte{
+        vertical-align: middle;
+    }
+
+    .whats2 .news p{
+        font-size: 14px;
+        margin: 5pt 10pt 5pt 10pt;
+        padding: 0pt;
+    }
+
+    .whats2 .news .newstext{
+        font-size: 14px;
+        margin: 0pt 0pt 5pt 20pt;
+        padding: 0px;
+        border: 0;
+    }
+
+    .whats2 table.contact_table{
+        width: 700px;
+        padding: 0;
+        border-spacing: 0px;
+        height: 569px;
+        text-align: left;
+        vertical-align: middle;
+    }
+
+    .whats2 .contact_table td.contact{
+        vertical-align: top;
+    }
+
+    .whats2 .contact{
+        font-size: 16px;
+        margin: 10pt 10pt 10pt 20pt;
+        padding: 0pt;
+    }
+
+
+<title > ìåãûëÂäwÅ@à„ópê∏ñßçHäwå§ãÜé∫</title >
